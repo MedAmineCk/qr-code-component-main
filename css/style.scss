@@ -16,13 +16,14 @@
 body {
     background: hsl(212, 45%, 89%);
     .card {
-        background: hsl(0, 0%, 100%);
+        background: hsl(0deg, 0%, 100%);
         width: 324px;
         height: 502px;
         overflow: hidden;
-        border-radius: 12px;
+        border-radius: 25px;
         text-align: center;
         padding: 20px;
+        box-shadow: 0px 9px 20px 10px hsl(220deg 15% 55% / 22%);
 
         .img-container {
             overflow: hidden;
